@@ -244,3 +244,23 @@ import json
 data = '{"name": "Alice", "age": 25}'
 parsed_data = json.loads(data)
 print(parsed_data["name"])  # Output: Alice
+
+################################################################
+
+# Practise 
+
+cheese_name = 'morzella'
+print(f'|{cheese_name:<15}|')
+print(f'|{cheese_name:>15}|')
+
+grade = 100
+print('Pass') if grade > 70 else print('Fail')
+
+
+# Iteratables String, tuple, List, Range, Set, Dict
+# Sequence data: string, rangem list, tuple
+# Non Sequence data: dict, set
+
+adj = 'Difficult'
+del adj # The reference to the object "Difficult" is removed not the object
+
